@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "todoList",
+    "slug": "todoList",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/form2.png",
+    "scheme": "todolist",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/form2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.aman_2363.todoList"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/form2.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/form2.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2fca4abe-d662-425f-abfc-81c9a96e01f3"
+      }
+    },
+    "owner": "aman_2363",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2fca4abe-d662-425f-abfc-81c9a96e01f3"
+    }
+  }
+}
